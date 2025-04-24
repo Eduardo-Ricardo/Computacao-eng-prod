@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main (){
+int main ()
+{
     float altura_parede, largura_parede;
 
     printf("Calculo de tinta!\nDigite a altura da parede: ");
     scanf("%f", &altura_parede);
-
 
     printf("Digite a largura da parede: ");
     scanf("%f", &largura_parede);
@@ -16,14 +16,11 @@ int main (){
     float tinta_litros = area_parede / 2;
     int aux = tinta_litros;
 
-    if (aux != tinta_litros){
-        printf("\n\n%f , %d\n\n", tinta_litros, aux);
+    if (aux != tinta_litros)
+    {
         tinta_litros = (aux + 1);
     }
 
     printf("\n\nLitros de tinta necessario(s): %f", tinta_litros);
-
-
-
 
 }
