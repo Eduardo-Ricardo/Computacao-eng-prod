@@ -1,5 +1,5 @@
 /**
-Implemente um programa em C que preencha com valores aleatÃ³rios uma matriz de dimensÃ£o 5 Ë†5 e imprima matriz
+Implemente um programa em C que preencha com valores aleatórios uma matriz de dimensão 5 ˆ5 e imprima matriz
 e depois sua transposta.
 **/
 
