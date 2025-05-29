@@ -1,5 +1,5 @@
 /**
-Implemente um programa em C que preencha com valores aleatórios uma matriz de dimensão 5 ˆ5 e imprima matriz
+Implemente um programa em C que preencha com valores aleatÃ³rios uma matriz de dimensÃ£o 5 Ë†5 e imprima matriz
 e depois sua transposta.
 **/
 
@@ -14,11 +14,30 @@ int main(){
     for (int i = 0; i < 5; i++){
         for (int j = 0; j < 5; j++){
             matriz[i][j] = rand() % (100 + 1);
+        }
+        printf("\n");
+
+    }
+
+    printf("\n\nMatriz: \n");
+
+    for (int i = 0; i < 5; i++){
+        for (int j = 0; j < 5; j++){
             printf("[%d]\t", matriz[i][j]);
         }
         printf("\n");
 
     }
+
+    printf("\n\nMatriz Transposta: \n");
+    for (int i = 0; i < 5; i++){
+        for (int j = 0; j < 5; j++){
+            printf("[%d]\t", matriz[j][i]);
+        }
+        printf("\n");
+
+    }
+
 
     return 0;
 }
